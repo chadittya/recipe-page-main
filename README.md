@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Recipe page solution
 
-## Getting Started
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### Screenshot
+
+![Screenshot](./public/screenshot.png)
+
+### Links
+
+- Solution URL: [Add solution URL here]
+- Live Site URL: [Add live site URL here]
+
+## My process
+
+### Built with
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+### What I learned
+
+In this project, I learned how to:
+
+1. Set up a Next.js project with Tailwind CSS
+2. Use Next.js font optimization with Google Fonts
+3. Create reusable React components for a recipe page
+4. Implement responsive design using Tailwind CSS
+5. Use CSS custom properties for consistent theming
+
+Here's an example of how I used Next.js font optimization:
+
+```tsx
+import { Young_Serif, Outfit } from "next/font/google";
+
+const youngSerif = Young_Serif({ subsets: ["latin"], weight: ["400"] });
+const outfit = Outfit({ subsets: ["latin"], weight: ["400", "600", "700"] });
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Continued development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In future projects, I want to focus on:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Improving accessibility features
+- Implementing more complex layouts with CSS Grid
+- Exploring Next.js API routes for dynamic content
 
-## Learn More
+### Useful resources
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - This helped me understand the basics of Next.js and its features.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - An excellent resource for learning how to use Tailwind CSS effectively.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Frontend Mentor - [@chadittya](https://www.frontendmentor.io/profile/chadittya)
+- Twitter - [@galiharizza](https://www.twitter.com/galiharizza)
